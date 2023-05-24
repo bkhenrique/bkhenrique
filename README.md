@@ -33,6 +33,12 @@ Projeto Game Mario
 
 use a tecla SPACE do seu teclado para pular ou onpress para mobile
 
+Repositorio
+
+https://github.com/bkhenrique/mario-js-hmtl-css
+
+Jogo
+
 https://bkhenrique.github.io/mario-js-hmtl-css/index.html
 
 ///////////////////////////////////////////////////////////
