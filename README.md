@@ -59,7 +59,8 @@ Repositório: https://github.com/bkhenrique/crud-php
 #
 # Faculdade Estacio
 site: https://bkhenrique.github.io/faculdade-estacio/
-repositório:
+
+repositório: https://github.com/bkhenrique/faculdade-estacio
 
 About me:
 - 📫 How to get to me: [My Linkedin](https://www.linkedin.com/in/devhenriqueguimaraes/)
