@@ -33,42 +33,29 @@ Projeto Game Mario
 
 use a tecla SPACE do seu teclado para pular ou onpress para mobile
 
-Repositório
+Repositório: https://github.com/bkhenrique/mario-js-hmtl-css
 
-https://github.com/bkhenrique/mario-js-hmtl-css
-
-Jogo
-
-https://bkhenrique.github.io/mario-js-hmtl-css/index.html
+Jogo: https://bkhenrique.github.io/mario-js-hmtl-css/index.html
 #
 
 # Exemplos Praticos:
 
-Repositório
+Repositório: https://github.com/bkhenrique/Estudos
 
-https://github.com/bkhenrique/Estudos
-
-Site
-
-https://bkhenrique.github.io/Estudos/
+Site: https://bkhenrique.github.io/Estudos/
 #
 
 # Crud JavaScript
 
-Repositório
+Repositório: https://github.com/bkhenrique/sistema-nutricao
 
-https://github.com/bkhenrique/sistema-nutricao
-
-site
-
-https://bkhenrique.github.io/sistema-nutricao/
+site: https://bkhenrique.github.io/sistema-nutricao/
 
 #
 
 #Crud PHP
 
-Repositório
-https://github.com/bkhenrique/crud-php
+Repositório: https://github.com/bkhenrique/crud-php
 
 
 
