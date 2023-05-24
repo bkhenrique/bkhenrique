@@ -40,10 +40,10 @@ https://github.com/bkhenrique/mario-js-hmtl-css
 Jogo
 
 https://bkhenrique.github.io/mario-js-hmtl-css/index.html
-
+#
 ///////////////////////////////////////////////////////////
 
-Exemplos Praticos:
+# Exemplos Praticos:
 
 Repositório
 
@@ -52,5 +52,8 @@ https://github.com/bkhenrique/Estudos
 Site
 
 https://bkhenrique.github.io/Estudos/
+#
+////////////////////////////////////////////////////////////
+
 About me:
 - 📫 How to get to me: [My Linkedin](https://www.linkedin.com/in/devhenriqueguimaraes/)
