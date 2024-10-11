@@ -21,6 +21,11 @@ I create successful websites and systems on the web, fast, simple and easy to us
   </a>
 </p>
 
+### Total Commits:
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bkhenrique&count_private=true&show_icons=true&include_all_commits=true&theme=default" alt="Total Commits" />
+</p>
+
 Things I like to do:
 - 🖥 Web Applications
 - 📱 Applications
