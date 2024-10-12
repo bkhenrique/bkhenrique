@@ -18,24 +18,32 @@ const repos = [
   'HOSTSERVERDOBRASIL/XDB-PAINELBACK-V2',
   'HOSTSERVERDOBRASIL/XDB-PAINELFRONT-V2'
 ];
+async function getBranches(repo) {
+  const response = await fetch(`https://api.github.com/repos/${repo}/branches`, { headers });
+  const branches = await response.json();
+  return branches.map(branch => branch.name);
+}
 
-async function getCommitCount(repo) {
-  console.log(`Token: ${token}`);
-  const response = await fetch(`https://api.github.com/repos/${repo}/commits?author=bkhenrique&per_page=100`, { headers });
+async function getCommitCount(repo, branch) {
+  const response = await fetch(`https://api.github.com/repos/${repo}/commits?sha=${branch}&author=bkhenrique&per_page=100`, { headers });
   const commits = await response.json();
-  console.log(`Commits recebidos para ${repo}:`, commits);
   return commits.length;
 }
 
 
-async function countAllCommits() {
+
+async function countAllCommits(repo) {
+  const branches = await getBranches(repo);
   let totalCommits = 0;
-  for (const repo of repos) {
-    const count = await getCommitCount(repo);
+  
+  for (const branch of branches) {
+    const count = await getCommitCount(repo, branch);
     totalCommits += count;
   }
+  
   return totalCommits;
 }
+
 
 countAllCommits().then(totalCommits => {
   console.log(`Total de commits calculados: ${totalCommits}`);
