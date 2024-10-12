@@ -43,4 +43,4 @@ jobs:
         git commit -m "Updated README with total commits"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.TO_TOKEN }}
+        TO_TOKEN: ${{ secrets.TO_TOKEN }}
