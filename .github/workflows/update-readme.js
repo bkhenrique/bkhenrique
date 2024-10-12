@@ -60,8 +60,10 @@ countCommitsForAllRepos().then(totalCommits => {
   const readmePath = path.join(__dirname, '../../README.md'); // Ajuste o caminho aqui
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
   const updatedReadme = readmeContent.replace(
-    /<p align="center">Total de Commits nos repositórios privados: \*\*\d+\*\*<\/p>/,
-    `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
-  );
-  fs.writeFileSync(readmePath, updatedReadme);
-});
+  /<p align="center">Total de Commits nos repositórios privados: \*\*\d+\*\*<\/p>/,
+  `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
+);
+
+console.log('Conteúdo atualizado:', updatedReadme);  // Verifique o conteúdo atualizado
+fs.writeFileSync(readmePath, updatedReadme);
+
