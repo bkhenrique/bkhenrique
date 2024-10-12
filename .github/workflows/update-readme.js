@@ -66,4 +66,5 @@ countCommitsForAllRepos().then(totalCommits => {
 
 console.log('Conteúdo atualizado:', updatedReadme);  // Verifique o conteúdo atualizado
 fs.writeFileSync(readmePath, updatedReadme);
+});
 
