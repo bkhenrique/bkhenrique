@@ -21,7 +21,6 @@ const repos = [
 
 async function getCommitCount(repo) {
   console.log(`Token: ${token}`);
-  console.log(`secrets.TO_TOKEN: ${secrets.TO_TOKEN}`);
   const response = await fetch(`https://api.github.com/repos/${repo}/commits?author=bkhenrique`, { headers });
   const commits = await response.json();
   console.log(`Commits recebidos para ${repo}:`, commits);
