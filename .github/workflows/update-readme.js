@@ -26,6 +26,7 @@ async function getBranches(repo) {
 }
 
 async function getCommitCount(repo, branch) {
+  console.log(branch);
   const response = await fetch(`https://api.github.com/repos/${repo}/commits?sha=${branch}&author=bkhenrique&per_page=100`, { headers });
   const commits = await response.json();
   return commits.length;
@@ -64,7 +65,7 @@ countCommitsForAllRepos().then(totalCommits => {
   `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
 );
 
-console.log('Conteúdo atualizado:', updatedReadme);  // Verifique o conteúdo atualizado
+
 fs.writeFileSync(readmePath, updatedReadme);
 });
 
