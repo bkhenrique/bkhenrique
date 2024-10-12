@@ -20,9 +20,7 @@ I create successful websites and systems on the web, fast, simple and easy to us
 </p>
 
 ### Total Commits:
-<p align="center">
-  Total de Commits nos repositórios privados: **0**
-</p>
+<p align="center"> Total de Commits nos repositórios privados: **0**</p>
 
 Things I like to do:
 - 🖥 Web Applications
