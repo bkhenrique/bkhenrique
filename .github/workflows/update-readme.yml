@@ -26,7 +26,7 @@ jobs:
 
     # Rodar o script JavaScript para contar commits e atualizar o README.md
     - name: Run update-readme.js
-      run: node update-readme.js
+      run: node .github/workflows/update-readme.js
 
     # Comitar as mudanças no README.md
     - name: Commit changes
