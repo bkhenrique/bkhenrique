@@ -18,6 +18,7 @@ const repos = [
   'HOSTSERVERDOBRASIL/XDB-PAINELBACK-V2',
   'HOSTSERVERDOBRASIL/XDB-PAINELFRONT-V2'
 ];
+
 async function getBranches(repo) {
   const response = await fetch(`https://api.github.com/repos/${repo}/branches`, { headers });
   const branches = await response.json();
@@ -30,25 +31,30 @@ async function getCommitCount(repo, branch) {
   return commits.length;
 }
 
+async function countCommitsForRepo(repo) {
+  let totalRepoCommits = 0;
+  const branches = await getBranches(repo);
+
+  for (const branch of branches) {
+    const branchCommitCount = await getCommitCount(repo, branch);
+    totalRepoCommits += branchCommitCount;
+  }
+
+  return totalRepoCommits;
+}
+
 async function countCommitsForAllRepos() {
   let totalCommits = 0;
-  
+
   for (const repo of repos) {
-    const repoCommitCount = await countAllCommits(repo);
+    const repoCommitCount = await countCommitsForRepo(repo);
     totalCommits += repoCommitCount;
   }
-  
+
   return totalCommits;
 }
 
 countCommitsForAllRepos().then(totalCommits => {
-  console.log(`Total de commits calculados: ${totalCommits}`);
-  // Atualize o README com o valor total
-});
-
-
-
-countAllCommits().then(totalCommits => {
   console.log(`Total de commits calculados: ${totalCommits}`);
   
   const readmePath = path.join(__dirname, '../../README.md'); // Ajuste o caminho aqui
@@ -59,4 +65,3 @@ countAllCommits().then(totalCommits => {
   );
   fs.writeFileSync(readmePath, updatedReadme);
 });
-
