@@ -30,6 +30,10 @@ jobs:
     - name: Run update-readme.js
       run: node .github/workflows/update-readme.js
 
+    # Mostrar o conteúdo do README.md para verificar mudanças
+    - name: Show README content
+      run: cat README.md
+
     # Comitar as mudanças no README.md
     - name: Commit changes
       run: |
@@ -39,4 +43,4 @@ jobs:
         git commit -m "Updated README with total commits"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TO_TOKEN }}
