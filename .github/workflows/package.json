@@ -1,0 +1,11 @@
+{
+  "name": "github-readme-update",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node .github/workflows/update-readme.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
