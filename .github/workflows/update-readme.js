@@ -30,19 +30,22 @@ async function getCommitCount(repo, branch) {
   return commits.length;
 }
 
-
-
-async function countAllCommits(repo) {
-  const branches = await getBranches(repo);
+async function countCommitsForAllRepos() {
   let totalCommits = 0;
   
-  for (const branch of branches) {
-    const count = await getCommitCount(repo, branch);
-    totalCommits += count;
+  for (const repo of repos) {
+    const repoCommitCount = await countAllCommits(repo);
+    totalCommits += repoCommitCount;
   }
   
   return totalCommits;
 }
+
+countCommitsForAllRepos().then(totalCommits => {
+  console.log(`Total de commits calculados: ${totalCommits}`);
+  // Atualize o README com o valor total
+});
+
 
 
 countAllCommits().then(totalCommits => {
