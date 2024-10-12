@@ -1,5 +1,3 @@
-
-
 ## Hi, I'm Henrique Guimarães. Nice to meet you. 👋🏻 
 
 I create successful websites and systems on the web, fast, simple and easy to use. I just love what I do.❤
@@ -23,10 +21,6 @@ I create successful websites and systems on the web, fast, simple and easy to us
 
 ### Total Commits:
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bkhenrique&count_private=true&show_icons=true&include_all_commits=true&theme=default" alt="Total Commits" />
-</p>
-### Total Commits:
-<p align="center">
   Total de Commits nos repositórios privados: **0**
 </p>
 
@@ -39,51 +33,14 @@ Projetos:
 
 #SOLJETECH
 http://www.soljetech.com/
-#
+
 # mario-js-hmtl-css
-
-Projeto Game Mario
-
-use a tecla SPACE do seu teclado para pular ou onpress para mobile
-
 Repositório: https://github.com/bkhenrique/mario-js-hmtl-css
-
 Jogo: https://bkhenrique.github.io/mario-js-hmtl-css/index.html
-#
 
 # Exemplos Praticos:
-
 Repositório: https://github.com/bkhenrique/Estudos
-
 Site: https://bkhenrique.github.io/Estudos/
-#
 
 # JavaScript
-
-CRUD
-
-Repositório: https://github.com/bkhenrique/sistema-nutricao
-
-site: https://bkhenrique.github.io/sistema-nutricao/
-
-
-Conceitos:
-
-site: https://bkhenrique.github.io/faculdade-estacio/js/index.html
-
-repositório: https://github.com/bkhenrique/faculdade-estacio/blob/main/js/index.html
-
-
-#
-
-# Crud PHP
-
-Repositório: https://github.com/bkhenrique/crud-php
-#
-# Faculdade Estacio
-site: https://bkhenrique.github.io/faculdade-estacio/
-
-repositório: https://github.com/bkhenrique/faculdade-estacio
-
-About me:
-- 📫 How to get to me: [My Linkedin](https://www.linkedin.com/in/devhenriqueguimaraes/)
+CRUD: https://github.com/bkhenrique/sistema-nutricao
