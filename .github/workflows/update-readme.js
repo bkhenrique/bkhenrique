@@ -35,6 +35,8 @@ async function countAllCommits() {
 }
 
 countAllCommits().then(totalCommits => {
+  console.log(`Total de commits calculados: ${totalCommits}`);
+  
   const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
   const updatedReadme = readmeContent.replace(
@@ -43,3 +45,4 @@ countAllCommits().then(totalCommits => {
   );
   fs.writeFileSync(readmePath, updatedReadme);
 });
+
