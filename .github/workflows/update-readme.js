@@ -7,7 +7,7 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.TO_TOKEN;
 
 const headers = {
   'Authorization': `token ${token}`,
