@@ -24,6 +24,7 @@ async function getCommitCount(repo) {
   const commits = await response.json();
   return commits.length;
 }
+
 async function countAllCommits() {
   let totalCommits = 0;
   for (const repo of repos) {
@@ -33,16 +34,12 @@ async function countAllCommits() {
   return totalCommits;
 }
 
-
 countAllCommits().then(totalCommits => {
   const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
   const updatedReadme = readmeContent.replace(
-   const updatedReadme = readmeContent.replace(
-  /<p align="center">Total de Commits nos repositórios privados: \*\*\d+\*\*<\/p>/,
-  `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
-);
-
+    /<p align="center">Total de Commits nos repositórios privados: \*\*\d+\*\*<\/p>/,
+    `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
   );
   fs.writeFileSync(readmePath, updatedReadme);
 });
