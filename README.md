@@ -10,7 +10,7 @@ I create successful websites and systems on the web, fast, simple and easy to us
 
 <div align="center" style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
   <h2 style="font-size: 24px; color: #333;">Total Commits</h2>
-  <p align="center">Total de Commits nos repositórios privados: **661**</p>
+  <p align="center">Total de Commits nos repositórios privados: **0**</p>
 </div>
 <div align="center" style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px; margin: auto;">
   <h2 style="color: #333;"></h2>
