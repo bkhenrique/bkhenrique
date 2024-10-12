@@ -38,8 +38,11 @@ countAllCommits().then(totalCommits => {
   const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
   const updatedReadme = readmeContent.replace(
-    /Total de Commits nos repositórios privados: \*\*\d+\*\*/,
-    `Total de Commits nos repositórios privados: **${totalCommits}**`
+   const updatedReadme = readmeContent.replace(
+  /<p align="center">Total de Commits nos repositórios privados: \*\*\d+\*\*<\/p>/,
+  `<p align="center">Total de Commits nos repositórios privados: **${totalCommits}**</p>`
+);
+
   );
   fs.writeFileSync(readmePath, updatedReadme);
 });
