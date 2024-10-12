@@ -33,7 +33,7 @@ async function countAllCommits() {
   return totalCommits;
 }
 
-console.log(totalCommits)
+
 countAllCommits().then(totalCommits => {
   const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
