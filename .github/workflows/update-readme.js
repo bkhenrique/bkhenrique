@@ -24,7 +24,6 @@ async function getCommitCount(repo) {
   const commits = await response.json();
   return commits.length;
 }
-
 async function countAllCommits() {
   let totalCommits = 0;
   for (const repo of repos) {
@@ -34,6 +33,7 @@ async function countAllCommits() {
   return totalCommits;
 }
 
+console.log(totalCommits)
 countAllCommits().then(totalCommits => {
   const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
