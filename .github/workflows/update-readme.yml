@@ -22,7 +22,8 @@ jobs:
 
     # Instalar dependências necessárias
     - name: Install dependencies
-      run: npm install node-fetch
+      run: npm install node-fetch@2
+
 
     # Rodar o script JavaScript para contar commits e atualizar o README.md
     - name: Run update-readme.js
