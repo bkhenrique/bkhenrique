@@ -1,7 +1,13 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
+import fetch from 'node-fetch';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import path from 'path';
 
-const token = process.env.GITHUB_TOKEN;  // Usando token secreto
+// Para resolver o __dirname no ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const token = process.env.GITHUB_TOKEN;
 
 const headers = {
   'Authorization': `token ${token}`,
@@ -29,7 +35,7 @@ async function countAllCommits() {
 }
 
 countAllCommits().then(totalCommits => {
-  const readmePath = './README.md';
+  const readmePath = path.join(__dirname, './README.md');
   const readmeContent = fs.readFileSync(readmePath, 'utf-8');
   const updatedReadme = readmeContent.replace(
     /Total de Commits nos repositórios privados: \*\*\d+\*\*/,
