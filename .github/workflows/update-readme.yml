@@ -26,6 +26,11 @@ jobs:
 
 
 
+    - name: Show README content before
+      run: cat README.md
+
+
+
     # Rodar o script JavaScript para contar commits e atualizar o README.md
     - name: Run update-readme.js
       run: node .github/workflows/update-readme.js
