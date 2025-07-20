@@ -1,54 +1,153 @@
 <div align="center">
-  
-# 👋 Olá! Eu sou Henrique Guimarães
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Web+%26+Mobile+Applications;Always+learning+new+technologies;Coffee+%26+Code+Enthusiast" alt="Typing SVG" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Henrique%20Guimarães&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bkhenrique&color=0e75b6&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/bkhenrique?label=Followers&style=social" alt="GitHub followers" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=🚀+Full+Stack+Developer;💻+SOLJETECH+Founder;⚡+Web+%26+Mobile+Specialist;☕+Transformo+café+em+código!" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/🔥_Experience-5%2B_Years-FF6B6B?style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/💼_Company-SOLJETECH-4ECDC4?style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/🎯_Focus-Innovation-FFE66D?style=for-the-badge&labelColor=000000" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=bkhenrique&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" />
+<img src="https://img.shields.io/github/followers/bkhenrique?label=FOLLOWERS&style=for-the-badge&color=blue&labelColor=000000" />
 
 </div>
 
 ---
 
-## 🚀 Sobre Mim
-
-🎯 **Full Stack Developer** especializado em desenvolvimento web moderno
-💼 **5+ anos** de experiência criando soluções digitais inovadoras
-🏢 **Fundador** da SOLJETECH - Soluções em Tecnologia
-⚡ **Foco atual:** Desenvolvimento de aplicações web escaláveis e performáticas
-
-### 💻 Especialidades
-- **Frontend:** React, Vue.js, JavaScript ES6+, HTML5, CSS3
-- **Backend:** PHP (Laravel), Node.js, Python (Django/Flask)
-- **Database:** MySQL, PostgreSQL, MongoDB
-- **DevOps:** Docker, AWS, Git, CI/CD
-- **Mobile:** Desenvolvimento de aplicações responsivas
-
-## 🛠️ Tech Stack
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div align="center">
 
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> **Sobre Mim**
 
-### Backend
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+</div>
 
-### Database & Tools
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+
+```yaml
+name: Henrique Guimarães
+located_in: Brasil
+current_job: Full Stack Developer & SOLJETECH Founder
+education:
+  [
+    "Self-taught Developer",
+    "Continuous Learning Enthusiast"
+  ]
+company: SOLJETECH
+
+fields_of_interests:
+  [
+    "Web Development",
+    "Mobile Applications",
+    "Cloud Computing",
+    "DevOps",
+    "UI/UX Design"
+  ]
+
+technical_background:
+  [
+    "Full Stack Development",
+    "System Architecture",
+    "Database Design",
+    "API Development"
+  ]
+
+currently_learning: ["React Native", "TypeScript", "Microservices"]
+2024_goals: ["Create amazing web solutions", "Expand SOLJETECH", "☕ Drink more coffee"]
+hobbies: ["Gaming", "Photography", "Technology", "Coffee"]
+```
+
+<div align="center">
+
+### 💫 **"Transformo café em código!"** ☕
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> **Arsenal Tecnológico**
+
+</div>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
+<br>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vue" width="65" height="65" alt="Vue" />
+<br>Vue.js
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=php" width="65" height="65" alt="PHP" />
+<br>PHP
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=laravel" width="65" height="65" alt="Laravel" />
+<br>Laravel
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+<br>Python
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nodejs" width="65" height="65" alt="NodeJS" />
+<br>Node.js
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
+<br>MySQL
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=html" width="65" height="65" alt="HTML5" />
+<br>HTML5
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=css" width="65" height="65" alt="css" />
+<br>CSS3
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=bootstrap" width="65" height="65" alt="bootstrap" />
+<br>Bootstrap
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tailwind" width="65" height="65" alt="tailwind" />
+<br>Tailwind
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=mongodb" width="65" height="65" alt="MongoDB" />
+<br>MongoDB
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postgres" width="65" height="65" alt="PostgreSQL" />
+<br>PostgreSQL
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" />
+<br>Docker
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
+<br>AWS
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -132,5 +231,9 @@
 [![Spotify](https://novatorem-bkhenrique.vercel.app/api/spotify)](https://open.spotify.com/user/seu-usuario-spotify)
 
 **"Transformando ideias em código, uma linha por vez!"** ✨
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
 </div>
