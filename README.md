@@ -1,6 +1,5 @@
-
 <div align="center">
-
+  
 # 👋 Olá! Eu sou Henrique Guimarães
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Web+%26+Mobile+Applications;Always+learning+new+technologies;Coffee+%26+Code+Enthusiast" alt="Typing SVG" />
@@ -16,28 +15,17 @@
 
 ## 🚀 Sobre Mim
 
-```javascript
-const henrique = {
-    pronouns: "ele/dele",
-    code: ["JavaScript", "PHP", "Python", "HTML", "CSS"],
-    askMeAbout: ["web dev", "tech", "app dev", "photography"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Vue", "Angular"],
-            css: ["Bootstrap", "Tailwind", "Sass"]
-        },
-        backEnd: {
-            js: ["Node", "Express"],
-            php: ["Laravel", "CodeIgniter"],
-            python: ["Django", "Flask"]
-        },
-        databases: ["MySQL", "PostgreSQL", "MongoDB"],
-        misc: ["Docker", "AWS", "Git"]
-    },
-    currentFocus: "Criando soluções web inovadoras",
-    funFact: "Transformo café em código! ☕"
-};
-```
+🎯 **Full Stack Developer** especializado em desenvolvimento web moderno
+💼 **5+ anos** de experiência criando soluções digitais inovadoras
+🏢 **Fundador** da SOLJETECH - Soluções em Tecnologia
+⚡ **Foco atual:** Desenvolvimento de aplicações web escaláveis e performáticas
+
+### 💻 Especialidades
+- **Frontend:** React, Vue.js, JavaScript ES6+, HTML5, CSS3
+- **Backend:** PHP (Laravel), Node.js, Python (Django/Flask)
+- **Database:** MySQL, PostgreSQL, MongoDB
+- **DevOps:** Docker, AWS, Git, CI/CD
+- **Mobile:** Desenvolvimento de aplicações responsivas
 
 ## 🛠️ Tech Stack
 
@@ -83,7 +71,7 @@ const henrique = {
 
 ### 💼 Estatísticas Profissionais
 <div align="center">
-
+  
 ![](https://img.shields.io/badge/Total_Commits-661+-00D9FF?style=for-the-badge&logo=git&logoColor=white)
 ![](https://img.shields.io/badge/Repositórios_Privados-Múltiplos-FF6B6B?style=for-the-badge&logo=github&logoColor=white)
 ![](https://img.shields.io/badge/Anos_Codando-5+-4ECDC4?style=for-the-badge&logo=calendar&logoColor=white)
@@ -129,7 +117,7 @@ const henrique = {
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devhenriqueguimaraes/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bkhenrique)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@exemplo.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bksolucaodigitais@gmail.com)
 
 </div>
 
@@ -137,7 +125,7 @@ const henrique = {
 
 <div align="center">
 
-### � Quote do Dia
+### 💭 Quote do Dia
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ### 🎵 Spotify Playing
@@ -146,4 +134,3 @@ const henrique = {
 **"Transformando ideias em código, uma linha por vez!"** ✨
 
 </div>
-
