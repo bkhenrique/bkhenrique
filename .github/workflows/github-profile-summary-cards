@@ -1,0 +1,29 @@
+name: Profile Summary Cards
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 00:00 BRT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.TO_TOKEN }}  # seu PAT (repo + read:org)
+        with:
+          USERNAME: bkhenrique
+          UTC_OFFSET: -3
+          # temas: default, dracula, tokyonight, etc
+          THEME: tokyonight
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output || true
+          git commit -m "chore: update profile summary cards" || echo "no changes"
+          git push || true
