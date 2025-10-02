@@ -156,6 +156,8 @@ hobbies: ["Gaming", "Photography", "Technology", "Coffee"]
 ## 📊 GitHub Analytics
 
 <div align="center">
+  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg"/>
+
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bkhenrique&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bkhenrique&layout=compact&theme=tokyonight&hide_border=true"/>
 </div>
