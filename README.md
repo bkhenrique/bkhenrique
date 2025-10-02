@@ -153,11 +153,17 @@ hobbies: ["Gaming", "Photography", "Technology", "Coffee"]
 
 ---
 
-## 📊 GitHub Analytics
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bkhenrique&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bkhenrique&layout=compact&theme=tokyonight&hide_border=true"/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> **GitHub Analytics**
+
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bkhenrique&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&custom_title=Henrique's%20GitHub%20Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bkhenrique&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 </div>
 
 <div align="center">
@@ -165,15 +171,31 @@ hobbies: ["Gaming", "Photography", "Technology", "Coffee"]
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bkhenrique&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bkhenrique&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </div>
 
-### 💼 Estatísticas Profissionais
+### 💼 **Estatísticas Reais de Desenvolvimento**
 <div align="center">
-  
-![](https://img.shields.io/badge/Total_Commits-661+-00D9FF?style=for-the-badge&logo=git&logoColor=white)
-![](https://img.shields.io/badge/Repositórios_Privados-Múltiplos-FF6B6B?style=for-the-badge&logo=github&logoColor=white)
-![](https://img.shields.io/badge/Anos_Codando-5+-4ECDC4?style=for-the-badge&logo=calendar&logoColor=white)
+
+![](https://img.shields.io/badge/🔥_Total_Commits-1000+-FF6B6B?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/💼_Repositórios_Privados-50+-4ECDC4?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/🏢_Projetos_Empresariais-25+-FFE66D?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/⚡_Anos_Experiência-5+-00D9FF?style=for-the-badge&labelColor=000000)
+![](https://img.shields.io/badge/☕_Cafés_Consumidos-∞-8B4513?style=for-the-badge&labelColor=000000)
+
+</div>
+
+<div align="center">
+
+### 📈 **Estatísticas Detalhadas**
+
+| 📊 **Métrica** | 🔢 **Valor** | 📝 **Descrição** |
+|:---:|:---:|:---:|
+| **Total de Commits** | **1000+** | Incluindo repositórios privados e empresariais |
+| **Linguagens Dominadas** | **8+** | JavaScript, PHP, Python, HTML, CSS, etc. |
+| **Projetos Concluídos** | **50+** | Entre pessoais, acadêmicos e empresariais |
+| **Clientes Atendidos** | **25+** | Através da SOLJETECH |
+| **Uptime de Código** | **99.9%** | Sempre codando! |
 
 </div>
 
