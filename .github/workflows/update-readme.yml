@@ -2,51 +2,66 @@ name: Update README with Commit Count
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Executa diariamente à meia-noite
+    # GitHub usa UTC. Para rodar à MEIA-NOITE de Brasília (-03:00), use 03:00 UTC:
+    - cron: '0 3 * * *'
   workflow_dispatch:
+
+# Permissão para o job poder commitar no repositório
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    # Fazer checkout do repositório
-    - name: Check out the repository
-      uses: actions/checkout@v2
+      - name: Checkout (fetch full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # necessário se seu script conta commits pelo git log
 
-    # Configurar Node.js para rodar o script
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'     # cache automático se houver package.json
 
-    # Instalar dependências necessárias
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies (if any)
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm i
+          else
+            echo "No package.json found, skipping install."
+          fi
 
+      - name: Show README (before)
+        run: cat README.md
 
+      # Execute seu script. Ele deve ler o token via variável de ambiente.
+      - name: Run update-readme.js
+        env:
+          # -> Use seu PAT com escopos: repo, read:org (para contar privados e orgs)
+          GH_TOKEN: ${{ secrets.TO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # opcional, caso seu script aceite fallback
+        run: node .github/workflows/update-readme.js
 
-    - name: Show README content before
-      run: cat README.md
+      - name: Show README (after)
+        run: cat README.md
 
-
-
-    # Rodar o script JavaScript para contar commits e atualizar o README.md
-    - name: Run update-readme.js
-      run: node .github/workflows/update-readme.js
-
-    # Mostrar o conteúdo do README.md para verificar mudanças
-    - name: Show README content
-      run: cat README.md
-
-    # Comitar as mudanças no README.md
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git commit --allow-empty -m "Updated README with total commits"
-        git push
-    env:
-      TO_TOKEN: ${{ secrets.TO_TOKEN }}
-
+      - name: Commit & Push if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update README with commit count [skip ci]"
+            git push
+          fi
