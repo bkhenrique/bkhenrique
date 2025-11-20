@@ -205,9 +205,9 @@ hobbies: ["Gaming", "Photography", "Technology", "Coffee"]
 
 <div align="center">
 
-### 🏢 SOLJETECH - Empresa
-[![Website](https://img.shields.io/badge/🌐_Website-Soljetech-0078D4?style=for-the-badge)](http://www.soljetech.com/)
-> Desenvolvimento de soluções web corporativas
+### 🏢 SuperTerminals -
+[![Repo](https://img.shields.io/badge/📁_Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/bkhenrique/superTerminals)
+> Gerenciador de Terminais e Comandos
 
 ### 🎮 Mario Game - JavaScript
 [![Demo](https://img.shields.io/badge/🎮_Demo-Play_Now-FF6B6B?style=for-the-badge)](https://bkhenrique.github.io/mario-js-hmtl-css/index.html)
